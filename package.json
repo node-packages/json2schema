@@ -1,0 +1,24 @@
+{
+  "name": "json2schema",
+  "version": "1.0.0",
+  "description": "Converts json to json schema.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/node-packages/json2schema.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/node-packages/json2schema/issues"
+  },
+  "homepage": "https://github.com/node-packages/json2schema#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.2.0",
+    "mocha": "^2.5.3"
+  }
+}
