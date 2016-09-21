@@ -1,31 +1,7 @@
-/**
- * Created by ferron on 9/21/16.
- */
-
 /*!
  Many documentation snippets below are taken verbatim from the JSON Schema spec:
  http://json-schema.org/documentation.html
  */
-// not sure if this const of primitives is useful.
-/**
- JSON Schema defines seven primitive types for JSON values:
- */
-var primitives = {
-    /** A JSON array. */
-  'array': 'array',
-    /** A JSON boolean. */
-  'boolean': 'boolean',
-    /** A JSON number without a fraction or exponent part. */
-  'integer': 'integer',
-    /** Any JSON number. Number includes integer. */
-  'number': 'number',
-    /** The JSON null value. */
-  'null': 'null',
-    /** A JSON object. */
-  'object': 'object',
-    /** A JSON string. */
-  'string': 'string'
-};
 
 /**
  Returns one of the seven primitive JSON schema types, or 'undefined':
